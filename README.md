@@ -1,4 +1,4 @@
-## math-signs
+## aslmath
 Interactive dictionary for mathematics in American Sign Language
 
 ---
