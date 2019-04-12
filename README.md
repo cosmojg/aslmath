@@ -2,6 +2,8 @@
 
 Interactive dictionary for mathematics in American Sign Language
 
+https://cosmo.red/aslmath/
+
 ---
 
 ## license
