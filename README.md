@@ -14,9 +14,9 @@ https://cosmo.red/aslmath/
 ---
 
 ## credits
-* signing: Anna Lim Franck
-* direction: Claire Kresge
 * development: Cosmo Guerini
+* direction: Claire Kresge
+* signing: Anna Lim Franck
 
 ---
 
