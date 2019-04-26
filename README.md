@@ -8,7 +8,6 @@ https://cosmo.red/aslmath/
 
 ## to-do
 * [replace animated GIFs with videos](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/)
-* pick better names for files and folders
 
 ---
 
