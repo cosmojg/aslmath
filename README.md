@@ -20,6 +20,10 @@ https://cosmo.red/aslmath/
 
 ---
 
-## license
+## license (code)
 
 [GNU General Public License 3.0](LICENSE)
+
+## license (content)
+
+[Creative Commons Attribution-ShareAlike 4.0 International](LICENSE-CONTENT)
