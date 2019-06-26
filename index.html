@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang=en>
-    <head>
-        <title>cosmo/aslmath</title>
-        <meta name="viewport" content="width=device-width">
-        <meta charset="UTF-8">
-        <link rel=icon href=favicon.ico>
-        <style>
-            body {
+
+<head>
+    <title>cosmo/aslmath</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <link rel=icon href=favicon.ico>
+    <style>
+        body {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #282828;
             }
@@ -31,180 +32,110 @@
             ::selection {
             background-color: #b16286;
             }
-        </style>
-    </head>
-    <body>
-        <main>
-            <article>
-                <figure>
-                    <img alt="add"
-                        src="pngs/add.png"
-                        onmouseover="this.src='gifs/add.gif'"
-                        onmouseout="this.src='pngs/add.png'">
-                    <figcaption>&plus;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="subtract"
-                        src="pngs/subtract.png"
-                        onmouseover="this.src='gifs/subtract.gif'"
-                        onmouseout="this.src='pngs/subtract.png'">
-                    <figcaption>&minus;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="multiply"
-                        src="pngs/multiply.png"
-                        onmouseover="this.src='gifs/multiply.gif'"
-                        onmouseout="this.src='pngs/multiply.png'">
-                    <figcaption>&times;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="divide"
-                        src="pngs/divide.png"
-                        onmouseover="this.src='gifs/divide.gif'"
-                        onmouseout="this.src='pngs/divide.png'">
-                    <figcaption>&divide;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="less than"
-                        src="pngs/less-than.png"
-                        onmouseover="this.src='gifs/less-than.gif'"
-                        onmouseout="this.src='pngs/less-than.png'">
-                    <figcaption>&lt;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="greater than"
-                        src="pngs/greater-than.png"
-                        onmouseover="this.src='gifs/greater-than.gif'"
-                        onmouseout="this.src='pngs/greater-than.png'">
-                    <figcaption>&gt;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="equal"
-                        src="pngs/equal.png"
-                        onmouseover="this.src='gifs/equal.gif'"
-                        onmouseout="this.src='pngs/equal.png'">
-                    <figcaption>&equals;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="not equal"
-                        src="pngs/not-equal.png"
-                        onmouseover="this.src='gifs/not-equal.gif'"
-                        onmouseout="this.src='pngs/not-equal.png'">
-                    <figcaption>&ne;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="almost equal"
-                        src="pngs/almost-equal.png"
-                        onmouseover="this.src='gifs/almost-equal.gif'"
-                        onmouseout="this.src='pngs/almost-equal.png'">
-                    <figcaption>&asymp;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="number"
-                        src="pngs/number.png"
-                        onmouseover="this.src='gifs/number.gif'"
-                        onmouseout="this.src='pngs/number.png'">
-                    <figcaption>&num;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="positive"
-                        src="pngs/positive.png"
-                        onmouseover="this.src='gifs/positive.gif'"
-                        onmouseout="this.src='pngs/positive.png'">
-                    <figcaption>+1, +2, &hellip;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="negative"
-                        src="pngs/negative.png"
-                        onmouseover="this.src='gifs/negative.gif'"
-                        onmouseout="this.src='pngs/negative.png'">
-                    <figcaption>-1, -2, &hellip;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="fraction"
-                        src="pngs/fraction.png"
-                        onmouseover="this.src='gifs/fraction.gif'"
-                        onmouseout="this.src='pngs/fraction.png'">
-                    <figcaption>&frac14;, &frac12;, &hellip;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="decimal"
-                        src="pngs/decimal.png"
-                        onmouseover="this.src='gifs/decimal.gif'"
-                        onmouseout="this.src='pngs/decimal.png'">
-                    <figcaption>0.25, 0.5, &hellip;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="percent"
-                        src="pngs/percent.png"
-                        onmouseover="this.src='gifs/percent.gif'"
-                        onmouseout="this.src='pngs/percent.png'">
-                    <figcaption>&percnt;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="square root"
-                        src="pngs/square-root.png"
-                        onmouseover="this.src='gifs/square-root.gif'"
-                        onmouseout="this.src='pngs/square-root.png'">
-                    <figcaption>&radic;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="exponent"
-                        src="pngs/second-third-fourth.png"
-                        onmouseover="this.src='gifs/second-third-fourth.gif'"
-                        onmouseout="this.src='pngs/second-third-fourth.png'">
-                    <figcaption>x<sup>2</sup>, x<sup>3</sup>, x<sup>4</sup>, &hellip;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="pi"
-                        src="pngs/pi.png"
-                        onmouseover="this.src='gifs/pi.gif'"
-                        onmouseout="this.src='pngs/pi.png'">
-                    <figcaption>&pi;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="angle"
-                        src="pngs/angle.png"
-                        onmouseover="this.src='gifs/angle.gif'"
-                        onmouseout="this.src='pngs/angle.png'">
-                    <figcaption>&angmsd;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="right angle"
-                        src="pngs/right-angle.png"
-                        onmouseover="this.src='gifs/right-angle.gif'"
-                        onmouseout="this.src='pngs/right-angle.png'">
-                    <figcaption>&angrt;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="triangle"
-                        src="pngs/triangle.png"
-                        onmouseover="this.src='gifs/triangle.gif'"
-                        onmouseout="this.src='pngs/triangle.png'">
-                    <figcaption>&bigtriangleup;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="parallel"
-                        src="pngs/parallel.png"
-                        onmouseover="this.src='gifs/parallel.gif'"
-                        onmouseout="this.src='pngs/parallel.png'">
-                    <figcaption>&DoubleVerticalBar;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="perpendicular"
-                        src="pngs/perpendicular.png"
-                        onmouseover="this.src='gifs/perpendicular.gif'"
-                        onmouseout="this.src='pngs/perpendicular.png'">
-                    <figcaption>&perp;</figcaption>
-                </figure>
-                <figure>
-                    <img alt="similar"
-                        src="pngs/similar.png"
-                        onmouseover="this.src='gifs/similar.gif'"
-                        onmouseout="this.src='pngs/similar.png'">
-                    <figcaption>&sim;</figcaption>
-                </figure>
-            </article>
-        </main>
-    </body>
+    </style>
+</head>
+
+<body>
+    <main>
+        <article>
+            <figure>
+                <img alt="add" src="pngs/add.png" onmouseover="this.src='gifs/add.gif'" onmouseout="this.src='pngs/add.png'">
+                <figcaption>&plus;</figcaption>
+            </figure>
+            <figure>
+                <img alt="subtract" src="pngs/subtract.png" onmouseover="this.src='gifs/subtract.gif'" onmouseout="this.src='pngs/subtract.png'">
+                <figcaption>&minus;</figcaption>
+            </figure>
+            <figure>
+                <img alt="multiply" src="pngs/multiply.png" onmouseover="this.src='gifs/multiply.gif'" onmouseout="this.src='pngs/multiply.png'">
+                <figcaption>&times;</figcaption>
+            </figure>
+            <figure>
+                <img alt="divide" src="pngs/divide.png" onmouseover="this.src='gifs/divide.gif'" onmouseout="this.src='pngs/divide.png'">
+                <figcaption>&divide;</figcaption>
+            </figure>
+            <figure>
+                <img alt="less than" src="pngs/less-than.png" onmouseover="this.src='gifs/less-than.gif'" onmouseout="this.src='pngs/less-than.png'">
+                <figcaption>&lt;</figcaption>
+            </figure>
+            <figure>
+                <img alt="greater than" src="pngs/greater-than.png" onmouseover="this.src='gifs/greater-than.gif'" onmouseout="this.src='pngs/greater-than.png'">
+                <figcaption>&gt;</figcaption>
+            </figure>
+            <figure>
+                <img alt="equal" src="pngs/equal.png" onmouseover="this.src='gifs/equal.gif'" onmouseout="this.src='pngs/equal.png'">
+                <figcaption>&equals;</figcaption>
+            </figure>
+            <figure>
+                <img alt="not equal" src="pngs/not-equal.png" onmouseover="this.src='gifs/not-equal.gif'" onmouseout="this.src='pngs/not-equal.png'">
+                <figcaption>&ne;</figcaption>
+            </figure>
+            <figure>
+                <img alt="almost equal" src="pngs/almost-equal.png" onmouseover="this.src='gifs/almost-equal.gif'" onmouseout="this.src='pngs/almost-equal.png'">
+                <figcaption>&asymp;</figcaption>
+            </figure>
+            <figure>
+                <img alt="number" src="pngs/number.png" onmouseover="this.src='gifs/number.gif'" onmouseout="this.src='pngs/number.png'">
+                <figcaption>&num;</figcaption>
+            </figure>
+            <figure>
+                <img alt="positive" src="pngs/positive.png" onmouseover="this.src='gifs/positive.gif'" onmouseout="this.src='pngs/positive.png'">
+                <figcaption>+1, +2, &hellip;</figcaption>
+            </figure>
+            <figure>
+                <img alt="negative" src="pngs/negative.png" onmouseover="this.src='gifs/negative.gif'" onmouseout="this.src='pngs/negative.png'">
+                <figcaption>-1, -2, &hellip;</figcaption>
+            </figure>
+            <figure>
+                <img alt="fraction" src="pngs/fraction.png" onmouseover="this.src='gifs/fraction.gif'" onmouseout="this.src='pngs/fraction.png'">
+                <figcaption>&frac14;, &frac12;, &hellip;</figcaption>
+            </figure>
+            <figure>
+                <img alt="decimal" src="pngs/decimal.png" onmouseover="this.src='gifs/decimal.gif'" onmouseout="this.src='pngs/decimal.png'">
+                <figcaption>0.25, 0.5, &hellip;</figcaption>
+            </figure>
+            <figure>
+                <img alt="percent" src="pngs/percent.png" onmouseover="this.src='gifs/percent.gif'" onmouseout="this.src='pngs/percent.png'">
+                <figcaption>&percnt;</figcaption>
+            </figure>
+            <figure>
+                <img alt="square root" src="pngs/square-root.png" onmouseover="this.src='gifs/square-root.gif'" onmouseout="this.src='pngs/square-root.png'">
+                <figcaption>&radic;</figcaption>
+            </figure>
+            <figure>
+                <img alt="exponent" src="pngs/second-third-fourth.png" onmouseover="this.src='gifs/second-third-fourth.gif'" onmouseout="this.src='pngs/second-third-fourth.png'">
+                <figcaption>x<sup>2</sup>, x<sup>3</sup>, x<sup>4</sup>, &hellip;</figcaption>
+            </figure>
+            <figure>
+                <img alt="pi" src="pngs/pi.png" onmouseover="this.src='gifs/pi.gif'" onmouseout="this.src='pngs/pi.png'">
+                <figcaption>&pi;</figcaption>
+            </figure>
+            <figure>
+                <img alt="angle" src="pngs/angle.png" onmouseover="this.src='gifs/angle.gif'" onmouseout="this.src='pngs/angle.png'">
+                <figcaption>&angmsd;</figcaption>
+            </figure>
+            <figure>
+                <img alt="right angle" src="pngs/right-angle.png" onmouseover="this.src='gifs/right-angle.gif'" onmouseout="this.src='pngs/right-angle.png'">
+                <figcaption>&angrt;</figcaption>
+            </figure>
+            <figure>
+                <img alt="triangle" src="pngs/triangle.png" onmouseover="this.src='gifs/triangle.gif'" onmouseout="this.src='pngs/triangle.png'">
+                <figcaption>&bigtriangleup;</figcaption>
+            </figure>
+            <figure>
+                <img alt="parallel" src="pngs/parallel.png" onmouseover="this.src='gifs/parallel.gif'" onmouseout="this.src='pngs/parallel.png'">
+                <figcaption>&DoubleVerticalBar;</figcaption>
+            </figure>
+            <figure>
+                <img alt="perpendicular" src="pngs/perpendicular.png" onmouseover="this.src='gifs/perpendicular.gif'" onmouseout="this.src='pngs/perpendicular.png'">
+                <figcaption>&perp;</figcaption>
+            </figure>
+            <figure>
+                <img alt="similar" src="pngs/similar.png" onmouseover="this.src='gifs/similar.gif'" onmouseout="this.src='pngs/similar.png'">
+                <figcaption>&sim;</figcaption>
+            </figure>
+        </article>
+    </main>
+</body>
+
 </html>
