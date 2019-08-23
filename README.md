@@ -2,7 +2,7 @@
 
 Interactive dictionary for mathematics in American Sign Language
 
-https://asl.cosmo.red
+https://aslmath.cosmo.red
 
 ---
 
