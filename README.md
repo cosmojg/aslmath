@@ -1,8 +1,8 @@
-## asl.cosmo.red
+## aslmath
 
 Interactive dictionary for mathematics in American Sign Language
 
-https://asl.cosmo.red/
+https://asl.cosmo.red
 
 ---
 
